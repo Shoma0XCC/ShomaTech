@@ -1,0 +1,314 @@
+{% extends "./main.html" %}
+
+{% block title %}Услуги - ShomaTech{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1 class="fade-in">Наши услуги</h1>
+        <p class="fade-in">Комплексные решения для служб экстренного реагирования</p>
+    </div>
+</section>
+
+<!-- Main Services Section -->
+<section class="content-section">
+    <div class="container">
+        <h2 class="section-title">Основные решения</h2>
+        
+        <!-- Service 112 -->
+        <div style="margin-bottom: 4rem;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; margin-bottom: 3rem;">
+                <div>
+                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                        <div style="width: 60px; height: 60px; background: #e74c3c; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                            <i class="fas fa-phone-volume" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <h3 style="color: #e74c3c; font-size: 2rem; margin: 0;">Система 112</h3>
+                    </div>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 1.5rem;">
+                        Единая система экстренного реагирования для обработки всех типов чрезвычайных ситуаций. 
+                        Автоматическая маршрутизация вызовов к соответствующим службам.
+                    </p>
+                    <ul style="color: #666; line-height: 1.8;">
+                        <li>Автоматическое определение типа чрезвычайной ситуации</li>
+                        <li>Мгновенная передача данных в нужную службу</li>
+                        <li>Геолокация звонящего в реальном времени</li>
+                        <li>Интеграция с базами данных экстренных служб</li>
+                    </ul>
+                </div>
+                <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 2rem; border-radius: 20px; color: white; text-align: center;">
+                    <h4 style="margin-bottom: 1rem; font-size: 1.5rem;">Ключевые преимущества</h4>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem;">
+                        <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 10px;">
+                            <h5 style="font-size: 2rem; margin-bottom: 0.5rem;">< 3 сек</h5>
+                            <p style="font-size: 0.9rem;">Время обработки вызова</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 10px;">
+                            <h5 style="font-size: 2rem; margin-bottom: 0.5rem;">99.9%</h5>
+                            <p style="font-size: 0.9rem;">Точность определения местоположения</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 103 -->
+        <div style="margin-bottom: 4rem;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; margin-bottom: 3rem;">
+                <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); padding: 2rem; border-radius: 20px; color: white; text-align: center;">
+                    <h4 style="margin-bottom: 1rem; font-size: 1.5rem;">Специализированные модули</h4>
+                    <div style="display: grid; gap: 1rem; margin-top: 1.5rem;">
+                        <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 10px;">
+                            <i class="fas fa-exclamation-triangle" style="font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-size: 0.9rem;">Аварийные ситуации</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 10px;">
+                            <i class="fas fa-tools" style="font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-size: 0.9rem;">Плановые работы</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 10px;">
+                            <i class="fas fa-chart-bar" style="font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-size: 0.9rem;">Мониторинг сети</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                        <div style="width: 60px; height: 60px; background: #f39c12; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                            <i class="fas fa-fire" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <h3 style="color: #f39c12; font-size: 2rem; margin: 0;">Система 103</h3>
+                    </div>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 1.5rem;">
+                        Специализированная система для службы газа с модулями аварийного реагирования, 
+                        мониторинга газовых сетей и координации ремонтных работ.
+                    </p>
+                    <ul style="color: #666; line-height: 1.8;">
+                        <li>Классификация типов газовых аварий</li>
+                        <li>Автоматическое оповещение аварийных бригад</li>
+                        <li>Мониторинг состояния газовых сетей</li>
+                        <li>Планирование и контроль ремонтных работ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Services -->
+<section class="content-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+    <div class="container">
+        <h2 class="section-title">Дополнительные услуги</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <h3>Геолокация и картография</h3>
+                <p>Точное определение местоположения звонящего с использованием ГЛОНАСС/GPS. Интеграция с картографическими системами для быстрого реагирования.</p>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(231, 76, 60, 0.1); border-radius: 8px;">
+                    <small style="color: #e74c3c; font-weight: bold;">Точность: до 3 метров</small>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Аналитика и отчетность</h3>
+                <p>Система аналитики для оптимизации работы служб. Детальная отчетность по времени реагирования, типам вызовов и эффективности.</p>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(52, 152, 219, 0.1); border-radius: 8px;">
+                    <small style="color: #3498db; font-weight: bold;">Более 50 видов отчетов</small>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-link"></i>
+                </div>
+                <h3>Интеграция систем</h3>
+                <p>Интеграция с существующими системами экстренных служб. Обеспечение совместимости и синхронизации данных.</p>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(39, 174, 96, 0.1); border-radius: 8px;">
+                    <small style="color: #27ae60; font-weight: bold;">Более 20 типов интеграций</small>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Техническая поддержка</h3>
+                <p>Круглосуточная техническая поддержка критически важных систем. Мониторинг состояния и быстрое устранение неполадок.</p>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(243, 156, 18, 0.1); border-radius: 8px;">
+                    <small style="color: #f39c12; font-weight: bold;">Поддержка 24/7/365</small>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Обучение персонала</h3>
+                <p>Комплексное обучение операторов работе с системами. Регулярные тренинги и сертификация персонала.</p>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(155, 89, 182, 0.1); border-radius: 8px;">
+                    <small style="color: #9b59b6; font-weight: bold;">Сертификация включена</small>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Информационная безопасность</h3>
+                <p>Защита критически важных данных. Соответствие требованиям ФСТЭК и стандартам информационной безопасности.</p>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(52, 73, 94, 0.1); border-radius: 8px;">
+                    <small style="color: #34495e; font-weight: bold;">Сертификат ФСТЭК</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Implementation Process -->
+<section class="content-section">
+    <div class="container">
+        <h2 class="section-title">Процесс внедрения</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            
+            <div style="text-align: center; padding: 2rem;">
+                <div style="width: 80px; height: 80px; background: #e74c3c; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <span style="color: white; font-size: 2rem; font-weight: bold;">1</span>
+                </div>
+                <h4 style="margin-bottom: 1rem; color: #333;">Анализ требований</h4>
+                <p style="color: #666;">Детальный анализ потребностей и существующих систем</p>
+            </div>
+
+            <div style="text-align: center; padding: 2rem;">
+                <div style="width: 80px; height: 80px; background: #3498db; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <span style="color: white; font-size: 2rem; font-weight: bold;">2</span>
+                </div>
+                <h4 style="margin-bottom: 1rem; color: #333;">Проектирование</h4>
+                <p style="color: #666;">Создание архитектуры системы и техническое проектирование</p>
+            </div>
+
+            <div style="text-align: center; padding: 2rem;">
+                <div style="width: 80px; height: 80px; background: #27ae60; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <span style="color: white; font-size: 2rem; font-weight: bold;">3</span>
+                </div>
+                <h4 style="margin-bottom: 1rem; color: #333;">Разработка</h4>
+                <p style="color: #666;">Разработка системы с учетом всех требований безопасности</p>
+            </div>
+
+            <div style="text-align: center; padding: 2rem;">
+                <div style="width: 80px; height: 80px; background: #f39c12; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <span style="color: white; font-size: 2rem; font-weight: bold;">4</span>
+                </div>
+                <h4 style="margin-bottom: 1rem; color: #333;">Тестирование</h4>
+                <p style="color: #666;">Комплексное тестирование в условиях, близких к реальным</p>
+            </div>
+
+            <div style="text-align: center; padding: 2rem;">
+                <div style="width: 80px; height: 80px; background: #9b59b6; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <span style="color: white; font-size: 2rem; font-weight: bold;">5</span>
+                </div>
+                <h4 style="margin-bottom: 1rem; color: #333;">Внедрение</h4>
+                <p style="color: #666;">Постепенное внедрение с минимальными рисками</p>
+            </div>
+
+            <div style="text-align: center; padding: 2rem;">
+                <div style="width: 80px; height: 80px; background: #34495e; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <span style="color: white; font-size: 2rem; font-weight: bold;">6</span>
+                </div>
+                <h4 style="margin-bottom: 1rem; color: #333;">Поддержка</h4>
+                <p style="color: #666;">Постоянная поддержка и развитие системы</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="stats">
+    <div class="container">
+        <h2 class="section-title" style="color: white;">Стоимость решений</h2>
+        <p style="text-align: center; color: white; opacity: 0.9; margin-bottom: 3rem; font-size: 1.1rem;">
+            Стоимость зависит от масштаба внедрения и специфических требований
+        </p>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Малые города</h3>
+                <p>До 100 тыс. жителей</p>
+                <p style="font-size: 1.2rem; margin-top: 0.5rem; color: #fff;">От 5 млн ₽</p>
+            </div>
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-city"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Средние города</h3>
+                <p>100-500 тыс. жителей</p>
+                <p style="font-size: 1.2rem; margin-top: 0.5rem; color: #fff;">От 15 млн ₽</p>
+            </div>
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Крупные города</h3>
+                <p>Более 500 тыс. жителей</p>
+                <p style="font-size: 1.2rem; margin-top: 0.5rem; color: #fff;">От 30 млн ₽</p>
+            </div>
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Индивидуальное</h3>
+                <p>Под ваши требования</p>
+                <p style="font-size: 1.2rem; margin-top: 0.5rem; color: #fff;">Расчет по запросу</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="content-section">
+    <div class="container">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <h2 class="section-title">Нужна консультация?</h2>
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem;">
+                Наши эксперты помогут подобрать оптимальное решение для вашей службы экстренного реагирования
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#" class="cta-button">Получить консультацию</a>
+                <a href="tel:+7-996-404-37-91" style="display: inline-block; background: transparent; color: #e74c3c; padding: 1rem 2rem; text-decoration: none; border: 2px solid #e74c3c; border-radius: 50px; font-weight: bold; transition: all 0.3s ease;">
+                    <i class="fas fa-phone"></i> Позвонить сейчас
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="content-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+    <div class="container">
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div style="background: white; padding: 2rem; border-radius: 15px; margin-bottom: 1rem; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <h4 style="color: #e74c3c; margin-bottom: 1rem;">Сколько времени занимает внедрение системы?</h4>
+                <p style="color: #666; line-height: 1.8;">Время внедрения зависит от масштаба проекта. Для малых городов - 3-6 месяцев, для крупных - 6-12 месяцев. Включает все этапы от проектирования до запуска.</p>
+            </div>
+            
+            <div style="background: white; padding: 2rem; border-radius: 15px; margin-bottom: 1rem; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <h4 style="color: #e74c3c; margin-bottom: 1rem;">Можно ли интегрировать с существующими системами?</h4>
+                <p style="color: #666; line-height: 1.8;">Да, наши системы поддерживают интеграцию с большинством существующих решений. Мы обеспечиваем совместимость и миграцию данных.</p>
+            </div>
+            
+            <div style="background: white; padding: 2rem; border-radius: 15px; margin-bottom: 1rem; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <h4 style="color: #e74c3c; margin-bottom: 1rem;">Какие гарантии предоставляются?</h4>
+                <p style="color: #666; line-height: 1.8;">Мы предоставляем гарантию на оборудование и программное обеспечение, а также SLA на время отклика системы 99.9%. Круглосуточная поддержка включена.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

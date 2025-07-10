@@ -1,0 +1,207 @@
+{% extends "./main.html" %}
+
+{% block title %}О нас - ShomaTech{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1 class="fade-in">О компании ShomaTech</h1>
+        <p class="fade-in">Мы создаем технологии, которые спасают жизни</p>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="content-section">
+    <div class="container">
+        <h2 class="section-title">Наша миссия</h2>
+        <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <p style="font-size: 1.2rem; line-height: 1.8; color: #666; margin-bottom: 2rem;">
+                Мы разрабатываем критически важные системы для служб экстренного реагирования, 
+                обеспечивая быструю и точную обработку вызовов, когда каждая секунда на счету.
+            </p>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: #666;">
+                Наша цель — создать надежную технологическую основу для служб 112 и 103, 
+                которая поможет спасательным службам эффективно реагировать на чрезвычайные ситуации.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- History Section -->
+<section class="content-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+    <div class="container">
+        <h2 class="section-title">История компании</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+            <div>
+                <h3 style="color: #e74c3c; margin-bottom: 1rem; font-size: 1.8rem;">2018 - Основание</h3>
+                <p style="line-height: 1.8; color: #666; margin-bottom: 2rem;">
+                    Компания была основана группой IT-специалистов с опытом работы в критически важных системах. 
+                    Мы увидели необходимость в современных решениях для экстренных служб.
+                </p>
+                
+                <h3 style="color: #e74c3c; margin-bottom: 1rem; font-size: 1.8rem;">2019-2021 - Развитие</h3>
+                <p style="line-height: 1.8; color: #666; margin-bottom: 2rem;">
+                    Запуск первых проектов по модернизации систем экстренного реагирования. 
+                    Получение необходимых сертификатов и лицензий для работы с государственными службами.
+                </p>
+
+                <h3 style="color: #e74c3c; margin-bottom: 1rem; font-size: 1.8rem;">2022-2024 - Расширение</h3>
+                <p style="line-height: 1.8; color: #666;">
+                    Внедрение систем в крупных городах, расширение функциональности, 
+                    интеграция с современными технологиями геолокации и аналитики.
+                </p>
+            </div>
+            <div style="text-align: center;">
+                <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <div style="font-size: 4rem; color: #e74c3c; margin-bottom: 1rem;">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 style="color: #333; margin-bottom: 1rem;">6 лет</h3>
+                    <p style="color: #666;">опыта в разработке систем экстренного реагирования</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="content-section">
+    <div class="container">
+        <h2 class="section-title">Наша команда</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div style="width: 80px; height: 80px; background: #e74c3c; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-user-tie" style="color: white; font-size: 2rem;"></i>
+                </div>
+                <h3>Шамиль Нигматзянов</h3>
+                <p style="color: #e74c3c; font-weight: bold; margin-bottom: 0.5rem;">CEO & Основатель</p>
+                <p>Кто-то после вуза ищет себя. Шамиль — отучился год, и уже 15 лет спасает города бэкендом.</p>
+            </div>
+            
+            <div class="service-card">
+                <div style="width: 80px; height: 80px; background: #3498db; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-code" style="color: white; font-size: 2rem;"></i>
+                </div>
+                <h3>Шамиль Нигматзянов</h3>
+                <p style="color: #3498db; font-weight: bold; margin-bottom: 0.5rem;">CTO</p>
+                <p>Шамиль не пишет код. Он дирижирует архитектурой, пока сервера поют под нагрузкой.</p>
+            </div>
+            
+            <div class="service-card">
+                <div style="width: 80px; height: 80px; background: #27ae60; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-shield-alt" style="color: white; font-size: 2rem;"></i>
+                </div>
+                <h3>Шамиль Нигматзянов</h3>
+                <p style="color: #27ae60; font-weight: bold; margin-bottom: 0.5rem;">Руководитель отдела безопасности</p>
+                <p>Пока ты читаешь это — Шамиль уже закрыл уязвимость CVE, о которой ещё не написали.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Values Section -->
+<section class="stats">
+    <div class="container">
+        <h2 class="section-title" style="color: white;">Наши ценности</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Надежность</h3>
+                <p>Системы, на которые можно положиться в критических ситуациях</p>
+            </div>
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Инновации</h3>
+                <p>Использование самых современных технологий для спасения жизней</p>
+            </div>
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Ответственность</h3>
+                <p>Понимание важности нашей работы для общества</p>
+            </div>
+            <div class="stat-item">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 style="font-size: 1.5rem;">Команда</h3>
+                <p>Профессиональная команда единомышленников</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technologies Section -->
+<section class="content-section">
+    <div class="container">
+        <h2 class="section-title">Технологии</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center; border-left: 4px solid #e74c3c;">
+                <h4 style="color: #e74c3c; margin-bottom: 1rem;">Backend</h4>
+                <p style="color: #666;">Python, Django, PostgreSQL, Redis, RabbitMQ</p>
+            </div>
+            <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center; border-left: 4px solid #3498db;">
+                <h4 style="color: #3498db; margin-bottom: 1rem;">Frontend</h4>
+                <p style="color: #666;">React, TypeScript, WebRTC, Socket.io</p>
+            </div>
+            <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center; border-left: 4px solid #27ae60;">
+                <h4 style="color: #27ae60; margin-bottom: 1rem;">Инфраструктура</h4>
+                <p style="color: #666;">Docker, Kubernetes, AWS, Monitoring</p>
+            </div>
+            <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center; border-left: 4px solid #f39c12;">
+                <h4 style="color: #f39c12; margin-bottom: 1rem;">Геолокация</h4>
+                <p style="color: #666;">GIS-системы, OpenStreetMap, ГЛОНАСС/GPS</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certificates Section -->
+<section class="content-section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+    <div class="container">
+        <h2 class="section-title">Сертификаты и лицензии</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+            <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <div style="font-size: 3rem; color: #e74c3c; margin-bottom: 1rem;">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h4>ISO 27001</h4>
+                <p style="color: #666; margin-top: 0.5rem;">Безопасность информации</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <div style="font-size: 3rem; color: #3498db; margin-bottom: 1rem;">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4>ГОСТ Р 57580</h4>
+                <p style="color: #666; margin-top: 0.5rem;">Безопасность ПО</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <div style="font-size: 3rem; color: #27ae60; margin-bottom: 1rem;">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h4>Лицензия ФСТЭК</h4>
+                <p style="color: #666; margin-top: 0.5rem;">Техническая защита информации</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="content-section">
+    <div class="container">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <h2 class="section-title">Готовы к сотрудничеству?</h2>
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem;">
+                Обсудите ваши потребности в системах экстренного реагирования с нашими экспертами
+            </p>
+            <a href="{% url 'contact' %}" class="cta-button">Связаться с нами</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
